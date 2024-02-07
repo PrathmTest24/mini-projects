@@ -1,6 +1,6 @@
 import React from 'react'
 import useLocalStorage from './useLocalStorage'
-
+import './theme.css' ; 
 const LigthDark = () => {
 
     const[theme ,setTheme] = useLocalStorage("theme","dark");
@@ -12,7 +12,7 @@ const LigthDark = () => {
     console.log(theme);
 
   return (
-    <div className='light-dark-mode'>
+    <div className='light-dark-mode' data-theme = {theme}>
 
      <div className='container'>
         <p>Hello World</p>
