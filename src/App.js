@@ -3,6 +3,7 @@ import './App.css';
 import Random from './components/random-color/random';
 import LigthDark from './components/light-dark-mode/LigthDark';
 import { Qr } from './components/QR-code/qr';
+import { GItProfile } from './components/git-hub-profile/GItProfile';
 function App() {
   return (
     <>
@@ -14,7 +15,10 @@ function App() {
        {/* <LigthDark/> */}
 
        {/* QR-code Genarateor */}
-       <Qr/>
+       {/* <Qr/> */}
+
+       {/* github Profile finder */}
+       <GItProfile/>
     </>
     
   );
