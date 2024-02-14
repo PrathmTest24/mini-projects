@@ -4,6 +4,7 @@ import Random from './components/random-color/random';
 import LigthDark from './components/light-dark-mode/LigthDark';
 import { Qr } from './components/QR-code/qr';
 import { GItProfile } from './components/git-hub-profile/GItProfile';
+import { Search } from './components/SearchAutoComplete/Search';
 function App() {
   return (
     <>
@@ -18,7 +19,11 @@ function App() {
        {/* <Qr/> */}
 
        {/* github Profile finder */}
-       <GItProfile/>
+       {/* <GItProfile/> */}
+
+       {/* Search AutoComplete */}
+
+       <Search/>
     </>
     
   );
